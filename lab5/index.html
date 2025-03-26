@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>lab5</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>聖誕樹</title>
+</head>
+<body>
+<h2>打開瀏覽器的 Console 看聖誕樹</h2>
+<script>
+   function tree(n) {
+     for (let i = 0; i < n; i++) {
+       console.log(" ".repeat(n - i - 1) + "*".repeat(2 * i + 1));
+     }
+     for (let i = 0; i < 3; i++) {
+       console.log(" ".repeat(n - 1) + "*");
+     }
+   }
+   tree(4); // 呼叫這裡可以改數字
+</script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
